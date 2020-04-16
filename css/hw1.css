@@ -1,0 +1,124 @@
+table {
+    margin: 150px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-attachment: fixed;
+}
+th {
+    border-bottom: 2px solid #06cc06;
+    margin: 0;
+}
+tr th {
+    height: 20px;
+    line-height: 30px;
+    background-color: #b88d00;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+tr th:first-child {
+    text-align: left;
+    width: 400px;
+}
+tr th:hover {
+    opacity: 1;
+}
+tr td {
+    height: 15px;
+    line-height: 15px;
+    background-color: #e5eeeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: small;
+    color: #000000;
+    text-align: center;
+    margin: 0px 2px 2px 0px;
+    padding: 10px;
+    opacity: 0.6;
+}
+tr > td:first-child {
+text-align: left;
+width: 400px;
+}
+tr td:hover {
+    opacity: 1;
+}
+header{
+    background-color: #bdbcbc;
+    
+}
+main{
+    display: inline-block;
+    float: right;
+}
+h1{
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+h2{
+font-variant: small-caps;
+font-size: 30px;
+text-transform: none;
+color: #000000;
+}
+header {
+     background-image: url(../images/flywheel.jpg);
+     background-size: cover;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 15%;
+    width: 18%;
+    display: inline-block;
+    background: transparent;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px; 
+    background: rgb(255,255,255); /* Fallback color */
+    background: rgba(255, 255, 255, 0.3);
+    color:#000000;
+    margin-bottom: 4%;
+}
+nav a:hover {
+     background-color: #ffffff;
+     color: black;
+}
+nav a:focus {
+    background: #ffffff;
+    color: black;
+}
+.active {
+    background-color : #ffffff;
+    color: black;
+}
+
+img{
+    align-items: center;
+    width: 80%;
+    height: 40%;
+    border: 2px solid black;
+    margin: 30px 20px;
+    display: block;
+}
+.left {
+    width: 20%;
+    background: chocolate;
+    float: left;  
+    display: inline-block;
+    margin-right: 2%; 
+}
+.right {
+    width: 78%;
+    display: inline-block;
+    float: right;
+}
